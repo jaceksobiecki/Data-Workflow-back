@@ -8,7 +8,9 @@ router.post('/', function(req, res, next) {
 
     let rawdata = fs.readFileSync('./file.json');
     let formsData = JSON.parse(rawdata);
-    res.send(rawdata);
+    console.log(">>>>>>>>>>>>>>")
+    console.log(formsData.form.inputFields[0].name)
+    res.send(formsData);
 });
 
 module.exports = router;

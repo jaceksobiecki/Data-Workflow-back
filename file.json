@@ -1,1 +1,29 @@
-{"form":[{"name":"","type":"Text"}]}
+{
+  "form": {
+    "inputFields": [
+      {
+        "name": "Imię",
+        "type": "Text"
+      },
+      {
+        "name": "Nazwisko",
+        "type": "Text"
+      },
+      {
+        "name": "wiek",
+        "type": "Liczba"
+      }
+    ],
+    "stateFields": [
+      {
+        "name": "otwarty",
+        "assignedTo": "Jo"
+      },
+      {
+        "name": "do zatwierdzenia",
+        "assignedTo": "Ao"
+      }
+    ],
+    "apiResponse": "blelbe"
+  }
+}

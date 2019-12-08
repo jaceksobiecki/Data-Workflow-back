@@ -6,7 +6,7 @@ router.post('/', function(req, res, next) {
 
     const fs = require('fs');
 
-    fs.writeFile("./file.json", JSON.stringify(req.body), function(err) {
+    fs.writeFile("/Users/Jacek/WebstormProjects/Data Workflow/data-workflow/src/file.json", JSON.stringify(req.body), function(err) {
 
         if(err) {
             return console.log(err);
